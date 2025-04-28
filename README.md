@@ -1,10 +1,16 @@
 # simple-redirect
 
-> 🌐 A lightweight URL redirect service built with Bun.
+> 🔗 Fast, zero-config URL and custom protocol redirector; lets you link to custom protocols in apps that don't allow it.
 
 ## Overview
 
-This project provides a simple URL redirection service. It allows users to specify a target URL via query parameters and redirects them to the specified URL. The service is designed to be lightweight and efficient, leveraging Bun for fast performance.
+This project provides a simple URL redirection service. It allows users to specify a target URL via query parameters and redirects them to the specified URL. It’s original goal was to allow linking to custom protocols in apps that don't allow it, but it can be used for any URL redirection needs.
+
+For example, you want to open a file in VS Code from Trello? You can do something like:
+
+```
+https://redirect.example.com/?u=vscode://file/Users/username/path/to/file.txt
+```
 
 ### Features
 
