@@ -1,0 +1,11 @@
+{
+  "name": "scratchpad",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "^1.2.10",
+    "typescript": "^5.8.3"
+  }
+}
